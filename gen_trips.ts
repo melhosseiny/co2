@@ -10,12 +10,13 @@ const IMAGES = [
   "https://upload.wikimedia.org/wikipedia/commons/1/19/A_view_from_Riksveg_55_at_Sognefjellet.jpg"
 ]
 
+// generate how_many trips with mock data
 export function gen_trips(how_many: number): Trip[] {
   const title = () => Array(TOKEN_PER_TITLE).fill('').map(i => jsc.string(jsc.integer(1, 8), jsc.character("aeiou"))()).join(' ');
   const image = () => jsc.wun_of(IMAGES)();
   const countries = () => jsc.integer(1,10)();
   const days = () => jsc.integer(1,365)();
-  const offset = () => Number((jsc.number(10)()).toFixed(2));
+  const offset = () => jsc.integer(10000)(); // kg
   const rating = () => Number((jsc.number(5)()).toFixed(1));
   const trip = () => ({
     title: title(),
