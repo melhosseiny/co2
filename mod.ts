@@ -8,7 +8,7 @@ const HEADERS = {
   "cache-control": "no-cache"
 };
 
-async function handleRequest(request: Request): Promise<Response> {
+serve(async (request: Request): Promise<Response> => {
   const { pathname, searchParams } = new URL(request.url);
   const path = pathname === '/' ? './index.html' : `.${pathname}`;
 
@@ -42,6 +42,4 @@ async function handleRequest(request: Request): Promise<Response> {
       ...HEADERS
     }
   });
-};
-
-await serve(handleRequest);
+});
