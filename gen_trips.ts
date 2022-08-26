@@ -5,13 +5,13 @@ const jsc = jscheck();
 const TOKEN_PER_TITLE = 5;
 
 const IMAGES = [
-  "https://upload.wikimedia.org/wikipedia/commons/b/b6/Voringsfossen_waterfall_at_Eidfjord%2C_Norway.jpg",
-  "https://upload.wikimedia.org/wikipedia/commons/4/46/Geirangerfjord_.jpg",
-  "https://upload.wikimedia.org/wikipedia/commons/1/19/A_view_from_Riksveg_55_at_Sognefjellet.jpg",
-  "https://upload.wikimedia.org/wikipedia/commons/b/b0/Sakris%C3%B8y.jpg",
-  "https://upload.wikimedia.org/wikipedia/commons/9/9a/Early_Morning_at_Reine%2C_Lofoten%2C_Norway.jpg",
-  "https://upload.wikimedia.org/wikipedia/commons/2/24/Mount_Sm%C3%A5tindan_and_lake_Stor-Kongsvatnet_seen_from_Tjeldbergtind_-_Svolv%C3%A6r%2C_Lofoten%2C_Norway_2019-08-12.jpg",
-  "https://upload.wikimedia.org/wikipedia/commons/5/53/Bod%C3%B8_havn_3.JPG"
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Reine-3.jpg/800px-Reine-3.jpg",
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Sakris%C3%B8y.jpg/799px-Sakris%C3%B8y.jpg",
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Ramberg_%28Lofoten%29.jpg/800px-Ramberg_%28Lofoten%29.jpg",
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Sildpollneset.jpg/800px-Sildpollneset.jpg",
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Mount_Sm%C3%A5tindan_and_lake_Stor-Kongsvatnet_seen_from_Tjeldbergtind_-_Svolv%C3%A6r%2C_Lofoten%2C_Norway_2019-08-12.jpg/799px-Mount_Sm%C3%A5tindan_and_lake_Stor-Kongsvatnet_seen_from_Tjeldbergtind_-_Svolv%C3%A6r%2C_Lofoten%2C_Norway_2019-08-12.jpg",
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Djupfjorden%2C_2010_09.jpg/800px-Djupfjorden%2C_2010_09.jpg",
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Early_Morning_at_Reine%2C_Lofoten%2C_Norway.jpg/800px-Early_Morning_at_Reine%2C_Lofoten%2C_Norway.jpg"
 ]
 
 // generate how_many trips with mock data
