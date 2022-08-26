@@ -1,7 +1,8 @@
 {
   "tasks": {
     "run": "deno run --allow-net --allow-read mod.ts",
-    "check": "deno run --check --allow-net --allow-read mod.ts"
+    "check": "deno run --check --allow-net --allow-read mod.ts",
+    "test": "deno test"
   },
   "importMap": "import_map.json"
 }

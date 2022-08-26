@@ -35,7 +35,7 @@ export function gen_trips(how_many: number): Trip[] {
   return trips;
 }
 
-interface Trip {
+export interface Trip {
   title: string,
   image: string,
   n_country: number,
